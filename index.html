@@ -4,14 +4,17 @@
   <title>Shopping List</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel ="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" 
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
+  crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
   <div class="container">
-    <h1>Shopping List</h1>
+    <h1>Shopping List Test</h1>
 
     <form id="js-shopping-list-form">
       <label for="shopping-list-entry">Add an item</label>
@@ -20,6 +23,7 @@
     </form>
 
     <ul class="shopping-list">
+      <!--Ready<span><i class= "fa fa-trash"></i></span>-->
       <li>
         <span class="shopping-item">apples</span>
         <div class="shopping-item-controls">
@@ -31,6 +35,8 @@
           </button>
         </div>
       </li>
+      
+      <!-- Set<i class= "fa fa-trash"></i></span> -->
       <li>
         <span class="shopping-item">oranges</span>
         <div class="shopping-item-controls">
@@ -42,6 +48,7 @@
           </button>
         </div>
       </li>
+      <!-- Go<i class= "fa fa-trash"></i></span> -->
       <li>
         <span class="shopping-item shopping-item__checked">milk</span>
         <div class="shopping-item-controls">
@@ -53,6 +60,7 @@
           </button>
         </div>
       </li>
+      <!-- Take Off!</li><i class= "fa fa-trash"></i></span> -->
       <li>
         <span class="shopping-item">bread</span>
         <div class="shopping-item-controls">
@@ -66,6 +74,6 @@
       </li>
     </ul>
   </div>
-
+<script src="index.js"></script>
 </body>
 </html>
